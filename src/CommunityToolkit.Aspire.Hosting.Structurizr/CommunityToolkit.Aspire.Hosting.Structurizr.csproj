@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>CommunityToolkit.Aspire.Hosting.Structurizr</PackageId>
+    <Version>8.0.0</Version>
+    <PackageTags>aspire hosting Structurizr</PackageTags>
+    <Description>Structurizr support for .NET Aspire.</Description>
+    <PackageIcon>Structurizr.558x447.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/CommunityToolkit/Aspire</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/CommunityToolkit/Aspire</PackageProjectUrl>
+    <Authors>Shahab Ganji</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MinCodeCoverage>100</MinCodeCoverage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(SharedDir)\PathNormalizer.cs" Link="Utils\PathNormalizer.cs"/>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="Structurizr.558x447.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>

@@ -129,6 +129,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests-app-hosts", "tests-ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama.AppHost", "tests-app-hosts\Ollama.AppHost\Ollama.AppHost.csproj", "{2CC61B84-CF97-4CE7-A08F-2EECF4AEAD92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Aspire.Hosting.Structurizr", "src\CommunityToolkit.Aspire.Hosting.Structurizr\CommunityToolkit.Aspire.Hosting.Structurizr.csproj", "{2D95320B-4DE5-4FA0-852F-8CF47C3E6CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Aspire.Hosting.Structurizr.Tests", "tests\CommunityToolkit.Aspire.Hosting.Structurizr.Tests\CommunityToolkit.Aspire.Hosting.Structurizr.Tests.csproj", "{16AD7173-6D89-48FE-A2E7-9C6C0EBD2E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "structurizr", "structurizr", "{094FFB4C-1D50-4DD7-B790-0436A7C6D3D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Aspire.Hosting.Structurizr.AppHost", "examples\structurizr\CommunityToolkit.Aspire.Hosting.Structurizr.AppHost\CommunityToolkit.Aspire.Hosting.Structurizr.AppHost.csproj", "{A611D413-A6A0-4763-B5A7-97FDC56A2B76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -331,6 +339,18 @@ Global
 		{2CC61B84-CF97-4CE7-A08F-2EECF4AEAD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC61B84-CF97-4CE7-A08F-2EECF4AEAD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC61B84-CF97-4CE7-A08F-2EECF4AEAD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D95320B-4DE5-4FA0-852F-8CF47C3E6CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D95320B-4DE5-4FA0-852F-8CF47C3E6CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D95320B-4DE5-4FA0-852F-8CF47C3E6CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D95320B-4DE5-4FA0-852F-8CF47C3E6CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AD7173-6D89-48FE-A2E7-9C6C0EBD2E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AD7173-6D89-48FE-A2E7-9C6C0EBD2E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AD7173-6D89-48FE-A2E7-9C6C0EBD2E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AD7173-6D89-48FE-A2E7-9C6C0EBD2E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A611D413-A6A0-4763-B5A7-97FDC56A2B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A611D413-A6A0-4763-B5A7-97FDC56A2B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A611D413-A6A0-4763-B5A7-97FDC56A2B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A611D413-A6A0-4763-B5A7-97FDC56A2B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -396,6 +416,10 @@ Global
 		{373472DA-BAEB-44B6-915D-1EF3DA845797} = {899F0713-7FC6-4750-BAFC-AC650B35B453}
 		{79CBF217-CED1-4BB2-9A72-37D2429F83B8} = {899F0713-7FC6-4750-BAFC-AC650B35B453}
 		{2CC61B84-CF97-4CE7-A08F-2EECF4AEAD92} = {79CBF217-CED1-4BB2-9A72-37D2429F83B8}
+		{2D95320B-4DE5-4FA0-852F-8CF47C3E6CB0} = {414151D4-7009-4E78-A5C6-D99EBD1E67D1}
+		{16AD7173-6D89-48FE-A2E7-9C6C0EBD2E88} = {899F0713-7FC6-4750-BAFC-AC650B35B453}
+		{094FFB4C-1D50-4DD7-B790-0436A7C6D3D8} = {8519CC01-1370-47C8-AD94-B0F326B1563F}
+		{A611D413-A6A0-4763-B5A7-97FDC56A2B76} = {094FFB4C-1D50-4DD7-B790-0436A7C6D3D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08B1D4B8-D2C5-4A64-BB8B-E1A2B29525F0}
